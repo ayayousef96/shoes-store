@@ -10,3 +10,11 @@ body{
     border: solid 0.2rem teal;
     border-radius: 1rem;
 }
+
+@media (max-width:700px) {
+    .Home{
+        width: 300px;
+
+    }
+    
+}
