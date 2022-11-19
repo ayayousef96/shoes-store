@@ -1,0 +1,28 @@
+Nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:teal;
+    padding: 0.5rem;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+li {
+    list-style: none;
+    text-transform: capitalize;
+    background-color:white;
+    padding: 0.2rem 0.5rem;
+    margin: auto 0.5rem;
+    border: 0.2rem solid black;
+    border-radius: 4px;
+  }
+li:hover {
+    background-color: rgba(218, 190, 126, 0.654);
+    color: white;
+  }
+li a {
+    text-decoration: none;
+  }

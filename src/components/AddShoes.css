@@ -1,0 +1,13 @@
+.Input {
+    margin: 4rem;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    background-color: rgb(219, 169, 77);
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  

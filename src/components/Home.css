@@ -1,0 +1,12 @@
+body{
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/57/01/seamless-background-from-images-sport-shoes-vector-20245701.jpg");
+}
+.Home{
+    margin-top: 15%;
+    background-color: aliceblue;
+    color: black;
+    height: max-content;
+    width: 600px;
+    border: solid 0.2rem teal;
+    border-radius: 1rem;
+}

@@ -1,0 +1,104 @@
+.img {
+  width: 30vw;
+  height: 40vh;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.shoes-card {
+  box-shadow: 0.2rem 0.2rem 0.3rem black;
+  width: max-content;
+  margin: 1rem;
+  display: flex;
+  border-radius: 0.8rem;
+  height: 40vh;
+  border: 0.4rem teal solid;
+  background-color: aliceblue;
+}
+
+
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.details > *{
+  padding: 0.4rem;
+  margin: 0.3rem;
+}
+
+.details > div {
+  background-color: rgb(15, 15, 15);
+  color: aliceblue;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  
+}
+
+.details > button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.788);
+  border: 0.2rem solid teal;
+  border-radius: 0.4rem;
+}
+
+.Input {
+  z-index: 2;
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 30vw;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(215, 180, 115);
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.Input > input {
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+  border: 0.1rem solid black;
+}
+
+.Input > button {
+  width: max-content;
+  text-align: center;
+  border-radius: 0.1rem;
+  border: none;
+  background-color: rgb(28, 33, 33);
+  border: 0.2rem white solid;
+  font-weight: bold;
+  color: white;
+}
+
+.Input > label {
+  color: white;
+ 
+  width: max-content;
+  padding: 0.2rem;
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+@media (max-width : 700px){
+  .details{
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+  }
+  .image{
+    height:30vh;
+    width:30vw;
+  }
+  .shoes-card{
+    height: 30vh;
+
+  }
+  .Input {
+    width: 45vw;
+  }
+}
