@@ -43,10 +43,16 @@ const ShoesList = (props) => {
     
 
 
-    const mapping = () => {
+    const displayListShoes = () => {
        
         return shoesArr.map((e) => {
-        return <Shoes key={e.id} name={e.name} img={e.image} price={e.price} id={e.id} onclick={() => handleDelete(props.id)} updateitem={props.update}/>;
+        return <Shoes
+            key={e.id}
+            name={e.name}
+            img={e.image} 
+            price={e.price}
+            id={e.id}
+            onclick={() => handleDelete(props.id)} updateitem={props.update}/>;
     });
      };
 
@@ -58,7 +64,7 @@ return (
     <div>
         <center>
             
-            <div className='shoeslist-container'>{mapping()}</div>
+            <div className='shoeslist-container'>{displayListShoes()}</div>
        </center>
     </div>
 );
